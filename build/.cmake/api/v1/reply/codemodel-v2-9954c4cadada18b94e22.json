@@ -1,0 +1,358 @@
+{
+	"configurations" : 
+	[
+		{
+			"abstractTargets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "Threads::Threads::@857a916f8d450decf05e",
+					"jsonFile" : "target-Threads__Threads-91b6338c52f1743c989d.json",
+					"name" : "Threads::Threads",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Vulkan::Headers::@af9395fb4c239a7adf53",
+					"jsonFile" : "target-Vulkan__Headers-a1855b8a8e6b2849a574.json",
+					"name" : "Vulkan::Headers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Vulkan::Vulkan::@af9395fb4c239a7adf53",
+					"jsonFile" : "target-Vulkan__Vulkan-44350e3bdb3cc2aabff4.json",
+					"name" : "Vulkan::Vulkan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Vulkan::glslangValidator::@af9395fb4c239a7adf53",
+					"jsonFile" : "target-Vulkan__glslangValidator-716691de7778c9fb6531.json",
+					"name" : "Vulkan::glslangValidator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Vulkan::glslc::@af9395fb4c239a7adf53",
+					"jsonFile" : "target-Vulkan__glslc-c5e4c50ace1edbbe903b.json",
+					"name" : "Vulkan::glslc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glm-header-only::@613f4c0f156fd21f7bfb",
+					"jsonFile" : "target-glm-header-only-585e585fbd3bed927070.json",
+					"name" : "glm-header-only",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "vendor::@af9395fb4c239a7adf53",
+					"jsonFile" : "target-vendor-dec7367307f152f00ecb.json",
+					"name" : "vendor",
+					"projectIndex" : 0
+				}
+			],
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-fd6451d79dc282e2f566.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					],
+					"build" : "vendor",
+					"childIndexes" : 
+					[
+						2,
+						5,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor-dfcdde03db26d1ad4d3e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "vendor"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"build" : "vendor/GLFW",
+					"childIndexes" : 
+					[
+						3,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor.GLFW-a35fe5ca0336f1fd3740.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "vendor/GLFW",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "vendor/GLFW/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor.GLFW.src-69485b2b664035ce376b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/GLFW/src",
+					"targetIndexes" : 
+					[
+						0,
+						4
+					]
+				},
+				{
+					"build" : "vendor/GLFW/docs",
+					"jsonFile" : "directory-vendor.GLFW.docs-20ee019f7f01472af8f2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "vendor/GLFW/docs"
+				},
+				{
+					"build" : "vendor/glm",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-vendor.glm-69bf29f047fe60c9233f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "vendor/glm"
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5
+					],
+					"build" : "vendor/glm/glm",
+					"jsonFile" : "directory-vendor.glm.glm-bd9b82f1db8127d40a74.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.6"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 2,
+					"source" : "vendor/glm/glm",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "vendor/tinyobjloader",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-vendor.tinyobjloader-1ca1b3aee0337a76e3a2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "vendor/tinyobjloader",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "src",
+					"jsonFile" : "directory-src-04ae5e23b13c6db1c31c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "src",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"abstractTargetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						6
+					],
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						8
+					],
+					"name" : "vulkan_setup",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						0
+					],
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4
+					],
+					"name" : "GLFW",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						4
+					]
+				},
+				{
+					"abstractTargetIndexes" : 
+					[
+						5
+					],
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "glm",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "tinyobjloader",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "glfw::@b229d1f7dfadabaf2e53",
+					"jsonFile" : "target-glfw-776f711cdafc52cd9b6c.json",
+					"name" : "glfw",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "glm::@613f4c0f156fd21f7bfb",
+					"jsonFile" : "target-glm-57270024eee6bf0ae3a9.json",
+					"name" : "glm",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "tinyobjloader::@dd383f73c94547e3218d",
+					"jsonFile" : "target-tinyobjloader-b8943c0cd77ef85acfa0.json",
+					"name" : "tinyobjloader",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "uninstall::@857a916f8d450decf05e",
+					"jsonFile" : "target-uninstall-b38d1bbb59f1f7a25a5f.json",
+					"name" : "uninstall",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "update_mappings::@b229d1f7dfadabaf2e53",
+					"jsonFile" : "target-update_mappings-a79e00cc4c4ab1202762.json",
+					"name" : "update_mappings",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "vulkan_setup::@145eef247bfb46b6828c",
+					"jsonFile" : "target-vulkan_setup-e699cd84077edde698dc.json",
+					"name" : "vulkan_setup",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/syamsudin/Projects/cpp/vulkan-ccp/build",
+		"source" : "/Users/syamsudin/Projects/cpp/vulkan-ccp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 10
+	}
+}

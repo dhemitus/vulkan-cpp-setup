@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/vulkan_setup.dir/src/main.cpp.o -o vulkan_setup  -Wl,-rpath,/usr/local/lib vendor/tinyobjloader/libtinyobjloader.a vendor/glm/glm/libglm.a vendor/GLFW/src/libglfw3.a /usr/local/lib/libvulkan.dylib -framework Cocoa -framework IOKit -framework QuartzCore -framework CoreFoundation
